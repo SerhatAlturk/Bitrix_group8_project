@@ -1,1 +1,1 @@
-"# Bitrix_group8_project" 
+Group 8 Pathfinders - Beatrix24 Test Framework
