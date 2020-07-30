@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
                 features = "src/test/resources/features",
                 glue = "com/Bitrix24/step_definitions",
                 dryRun = false,
-                tags = "@userstory4 and @uploadfile and @AC1"
+                tags = "@userstory4 and @uploadfile and @AC1 and @part2"
         
         )
 

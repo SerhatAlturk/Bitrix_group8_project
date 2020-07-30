@@ -16,6 +16,7 @@ public class BitrixActivityStreamPage
         PageFactory.initElements(Driver.getDriver(), this);
     }
     
+    //Poll section start -S
     @FindBy (id = "feed-add-post-form-tab-vote")
     public WebElement poll_section_button;
     
@@ -36,4 +37,11 @@ public class BitrixActivityStreamPage
     
     @FindBy (id = "blog-submit-button-save")
     public WebElement send_button;
+    
+    @FindBy (id = "bx-b-uploadfile-blogPostForm")
+    public WebElement upload_button_menu_open;
+    
+    @FindBy (name = "bxu_files[]")
+    public WebElement upload_button;
+    //Poll section end -s
 }
