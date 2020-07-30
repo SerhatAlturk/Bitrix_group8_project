@@ -7,8 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Beatrix24" />
-        <module name="Bitrix_group8_project" />
+        <module name="Bitrix" />
         <module name="Bitrix24-automation" />
+        <module name="Bitrix_group8_project" />
       </profile>
     </annotationProcessing>
   </component>
