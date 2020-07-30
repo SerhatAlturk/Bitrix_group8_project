@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="Beatrix24" />
         <module name="Bitrix_group8_project" />
+        <module name="Bitrix24-automation" />
       </profile>
     </annotationProcessing>
   </component>
