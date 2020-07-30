@@ -21,6 +21,8 @@ public class Hooks
         if (scenario.isFailed()) {
             byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
             scenario.attach(screenshot, "image/png", scenario.getName());
+
+            // I added this line just only for practice. Serhat, can you check it? Are you gonna create happy hours this Sunday?
         }
     }
 }
