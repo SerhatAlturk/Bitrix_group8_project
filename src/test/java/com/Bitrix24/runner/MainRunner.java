@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 								"json:target/cucumber.json",
 								"rerun:target/rerun.txt"
 						},
-				features = "features",
+				features = "src/test/resources/features",
 				glue = "com/Bitrix24/step_definitions",
 				dryRun = false,
 				tags = ""
@@ -22,4 +22,5 @@ import org.junit.runner.RunWith;
 
 public class MainRunner
 {
+
 }
